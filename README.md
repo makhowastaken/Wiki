@@ -1,7 +1,7 @@
 # Welcome to /r/Gameboy
 Welcome to the /r/Gameboy wiki! This wiki aims to answer most of the common questions, list useful guides and tools, and various other things about playing, modding and maintaining your Game Boys.
  
-This wiki just received some major edits and updates, so bear with us while we finish the new sections.
+Notice any mistakes or have any suggestions for improvement? Please contact the mods of the subreddit or submit a pull request at https://github.com/RGameBoy/Wiki
  
  
  
@@ -159,6 +159,107 @@ Install a new shell – [Written Guide](https://imgur.com/a/7iYbx)
  
 Replace hinge pins (shell swap) – [Written Guide](https://imgur.com/a/z21z1) or [this thread/video guide](https://www.reddit.com/r/Gameboy/comments/bxzub8/how_to_easily_remove_the_hinges_from_a_gba_sp/)
  
+ # Mod Kits
+
+The following is a list of some common mod kits available for Game Boys. Not all consoles are listed because not all consoles have mod kits available. Not all mod kits are listed either but PM the mods or submit a pull request ([here](https://github.com/RGameBoy/Wiki)) to correct this. Some kits may have generic versions or may be acquired through less than legitimate channels. Where applicable, the legitimate source for these kits is what is listed. 
+
+## **DMG -- Original Game Boy from 1989**
+
+Screen kits: 
+
+* Backlight kit for the original screen: https://handheldlegend.com/collections/dmg/products/game-boy-backlight-dmg-and-pocket
+
+* EL Backlight kit for the original screen: https://store.kitsch-bent.com/product/el_dmg
+
+* Replacement 3" screen (stock is 2.4"): https://bennvenn.myshopify.com/collections/aftermarket-lcds/products/dmg-3-backlit-lcd-kit
+
+* Replacement IPS LCD kit (Funnyplaying): coming soon
+
+Other kits:
+
+* Bivert module: https://handheldlegend.com/collections/dmg/products/game-boy-bivert-biversion-module
+
+* Mini bivert module: [Hidarite](https://www.tindie.com/products/hidarite/bivert-pcb-for-game-boy-dmg/) or [Retromodding](https://www.retromodding.com/collections/gameboy/products/game-boy-bivert-board)
+
+* Pro sound: [Retromodding](https://www.retromodding.com/collections/gameboy/products/gameboy-pcb-mount-pro-sound-v3) or [Kitsch-Bent](https://store.kitsch-bent.com/product/prosound-kits)
+
+## **MGB -- Game Boy Pocket**
+
+Screen kits: 
+
+* Backlight kit for the original screen: https://handheldlegend.com/collections/dmg/products/game-boy-backlight-dmg-and-pocket
+
+* Replacement transflective LCD kit (AIO kit, smaller than stock): https://www.aliexpress.com/item/4000277929265.html
+
+* Replacement stock sized kit from BennVenn: coming soon
+
+Other kits:
+
+* Mini bivert module: [Hidarite](https://www.tindie.com/products/hidarite/bivert-pcb-for-game-boy-pocket/) or [Retromodding](https://www.retromodding.com/collections/gameboy-pocket/products/game-boy-bivert-board)
+
+## **CGB -- Game Boy Color**
+
+Backlight kits: 
+
+* Replacement transflective LCD kit (Freckleshack v2, smaller than stock): https://bennvenn.myshopify.com/collections/aftermarket-lcds/products/freckleshack-pre-orders-batch-7?variant=29881069535335
+
+* Replacement IPS LCD kit (Freckleshack v3, stock sized): coming soon
+
+* Replacement IPS LCD kit (Freckleshack XL?, larger than stock): coming soon
+
+* Replacement transflective LCD kit (AIO kit, smaller than stock): https://www.aliexpress.com/item/4000277395061.html
+
+* Replacement IPS LCD kit (Funnyplaying, stock sized): coming soon
+
+* Replacement transflective LCD kit (McWill v1.1, smaller than stock): [Retromodding (US)](https://www.retromodding.com/products/mcwills-game-boy-color-lcd-upgrade) or [Dragonbox Shop (EU)](https://www.dragonbox.de/en/spare-parts-tools/console-mods/gameboy-color-lcd-mod-incl-glass-cover-and-usb-mod-mcwill)
+
+* Replacement transflective LCD kit (Midwest Embedded, smaller than stock): https://www.mw-embedded.com/product/gameboy-color-replacement-lcd-module/
+
+Other kits:
+
+* Boxy Pixel aluminum shell: https://www.boxypixel.com/collections/game-boy-color/products/game-boy-color-ags-101-machined-aluminum-shells-anodized-colored
+
+* Frontlight kit: https://handheldlegend.com/collections/gbc/products/game-boy-color-frontlight
+
+## **AGB -- Game Boy Advance**
+
+Screen kits:
+
+* A aftermarket AGS-101 screen and [generic ribbon cable adapter](https://www.retromodding.com/collections/gameboy-advance/products/game-boy-advance-backlit-ribbon-cable-adapter-32pin-40-pin) is still an option but there are no "official" vendors for the LCD.
+
+* Replacement IPS LCD kit (Funnyplaying v2, slightly larger than stock): https://funnyplaying.com/products/4-pixels-in-1-ips-full-viewing-angle-gameboy-advance-replacement-project
+
+* Replacement NDSL LCD kit (From BennVenn, smaller than stock): coming soon
+
+Other: 
+
+* Rechargeable Battery (listed vendors ship US only): [Retromodding kit](https://www.retromodding.com/collections/gameboy-advance/products/gameboy-advance-rechargeable-battery-pack) or [Modmatic kit](https://handheldlegend.com/products/powerup-advance-rechargeable-gba-battery-module)
+
+* Overclock module: https://www.retromodding.com/collections/gameboy-advance/products/gbaccelerator
+
+* Audio amplifier / loud speaker: https://www.retromodding.com/collections/gameboy-advance/products/game-boy-advance-audio-amplifier
+
+* Internal NiMh battery charger from BennVenn: coming soon
+
+* Boxy Pixel aluminum shell: https://www.boxypixel.com/collections/game-boy-advance/products/game-boy-advance-aluminum-machined-shell-free-3d-holder-pcb-anodize
+
+* VGA out: https://shop.insidegadgets.com/product/advancevga/
+
+* HDMI out (consolizer): https://www.game-tech.us/product/gba-consolizer/
+
+## **AGS -- Game Boy Advance SP (Frontlit, AGS-001 and Backlit, AGS-101)**
+
+Screen kits:
+
+* Replacement IPS LCD kit (Funnyplaying v2, works on both models of AGS): https://funnyplaying.com/products/gbasp-ips-laminated-display-lcd-kits
+
+* Replacement NDSL LCD kit (From BennVenn, smaller than stock): coming soon
+
+* For AGS-001 models, an aftermarket AGS-101 LCD may be installed if installed along side [a voltage regulator](https://bennvenn.myshopify.com/collections/cheap-stuff/products/backlit-sp-lcd-101-led-driver-board) and, optionally, [a brightness controller.](https://bennvenn.myshopify.com/collections/cheap-stuff/products/digital-backlight-brightness-controller-for-gbc-and-gba-101-lcds?variant=48320644564) 
+
+Other:
+
+* Internal headphone jack mod: https://www.tindie.com/products/hidarite/headphone-jack-pcb-for-game-boy-advance-sp/
  
 # Repairs and Damage
  
@@ -287,7 +388,7 @@ A flash cart is a Game Boy cartridge that allows you do download and play homebr
  
 There are loads of tutorials online and on this subreddit for all sorts of Game Boy related issues. **Use the search function!** Here are some related links:
  
-[Fake Cartridge Thread](https://www.reddit.com/r/Gameboy/comments/5tgr4w/official_fake_cartridge_thread_2/)
+[Fake Cartridge Thread](https://www.reddit.com/r/Gameboy/comments/ce2804/fake_cartridge_thread_2019_second_edition/)
  
  
 [Help Identifying Fake GBA games](http://gbatemp.net/threads/identifying-fake-gba-games-a-useful-faq.327354/)
@@ -309,8 +410,3 @@ GBA/AGB - Game Boy Advance
 AGS-001 - Game Boy Advance SP (frontlit)
  
 AGS-101 - Game Boy Advance SP (backlit)
- 
-# Credit
- 
-Wiki created by /u/asdfqwer426 and /u/renkonen. Original Game Boy problems and fixes by /u/toastersquared.
-Mods list compiled by u/zakdendy
