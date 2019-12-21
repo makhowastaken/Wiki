@@ -1,7 +1,7 @@
 # Welcome to ~~/r/Gameboy~~ r/Game_Boy
 Welcome to the /r/Game_boy wiki! This wiki aims to answer most of the common questions, list useful guides and tools, and various other things about playing, modding and maintaining your Game Boys.
  
-Notice any mistakes or have any suggestions for improvement? Please contact the mods of the subreddit or submit a pull request at https://github.com/RGameBoy/Wiki
+Notice any mistakes or have any suggestions for improvement? Please [see this thread](https://www.reddit.com/r/Game_Boy/comments/du4nrr/i_updated_the_game_boy_wiki_again/) (also linked in the "Talk" tab of this wiki), contact the mods of the subreddit, or submit a pull request at https://github.com/RGameBoy/Wiki
  
  
  
@@ -36,11 +36,17 @@ The Game Boy line saw many different models and revisions over its 16-year lifes
 * [Pokémon Mini / MIN-001](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mini) - Although this system is not part of the Game Boy line, it shares many qualities with other Game Boys of the era. Released shortly after the GBA in 2001, this is Nintendo’s smallest cartridge-based system.
  
 * [Wide Boy 64](https://en.wikipedia.org/wiki/Nintendo_64_accessories#Wide-Boy64) - This interesting accessory for Nintendo 64 was only available to developers and journalists, making them incredibly rare. It played all original games and Game Boy Color games. There was reportedly a version that would play Game Boy Advance games, but information is scarce.
+
+* [Revo K101](http://www.nintendolife.com/news/2015/05/hardware_review_revo_k101_plus) - This is an aftermarket console that uses partial emulation to play Game Boy Advance games. While this console can run ROMs off of a micro SD card, the main appeal of this system is the high quality backlit LCD and the built in GBA cart slot. This console also includes a link port for multiplayer and is compatible with original Game Boy Advance hardware. The console does have some built in emulators but performance can leave something to be desired. Unfortunately, the LCD is not the proper resolution for playing GBA games at the proper resolution so games are either surrounded by large black bars on the sides or the image can be scaled. The scaling option results in a blurry picture for GBA games. 
+
+* [GB Boy Colour](http://www.nintendolife.com/news/2017/11/hardware_review_gb_boy_classic_and_gb_boy_colour_the_best_way_to_play_game_boy_today) - A significant improvement over the original GB Boy, this is a hardware clone of the Game Boy Color. Like the Revo K101 above, this consoles is known for its built in backlit screen and hardware compatibility with Game Paks. But also like the Revo, the screen is not the proper resolution for Game Boy games and the result is a slightly blurry scaled image displayed at the wrong aspect ratio. Some of these consoles include built in games as well. 
+
+* [Analogue Pocket](https://www.analogue.co/pocket/) -  Due out sometime in 2020, this is a FPGA reimplimentation of a Game Boy Advance but in Game Boy Pocket form factor. This console comes complete with modern features such as a 615 PPI display, internal rechargeable battery, USB type C charging with HDMI output (via the dock), and still manages to retain full compatibility with Game Boy, Game Boy Color, and Game Boy Advance games. This console even includes a link port for multiplayer. 
  
  
 # Games
  
-* All Game Boy systems are region-free.
+* All Game Boy systems are region-free and are officially referred to by Nintendo as "Game Paks" though game, cart, or cartridge are much more commonly used terms. 
  
 * **Original Game Boy games -** These cartridges are usually gray in color, although some exceptions exist. These can be played on all Game Boy models except the Micro. All officially released Game Boy games will have a product code on the label, games for these systems will be in the format “DMG-XXX-YYY”, where the “X” letters represent the specific game code, and the “Y” letters represent the country/language it was released in. An example of this is “Super Mario Land”, with the code “DMG-ML-USA” for the U.S. release of the game.
  
@@ -52,9 +58,9 @@ The Game Boy line saw many different models and revisions over its 16-year lifes
  
 * **Game Boy Color games enhanced for the Advance system -** Regretfully, there is no standardized markings on Game Boy Color games that have enhanced features when played on the GBA systems. There are very few games that have these. Some are “Shantae”, “Wendy - Every Witch Way”, and both “The Legend of Zelda - Oracle of Season/Ages”
  
-* **Game Boy Advance games -** These cartridges are very easy to distinguish, as they’re usually about half the size of a regular Game Boy game, and will not fit in any of the previous systems. These can be played on all GBA models, Micro, and the Game Boy Player on GameCube. Most are dark gray, but there are exceptions.
+* **Game Boy Advance games -** These cartridges are very easy to distinguish, as they’re usually about half the size of a regular Game Boy game, and will not fit in any of the previous systems. These can be played on all GBA models, Micro, and the Game Boy Player on GameCube. Most are dark gray, but there are exceptions. Most GBA games do not use volatile storage for save data so they do not require batteries to function, unlike Game Boy and Game Boy Color games. 
  
-* **Exceptions -** There are some Game Boy games that are exceptions to these rules, some have different colored cartridges, most notably the Pokémon games. Other cartridges have motion sensors, light sensors, rumble motors, and even cameras. Some games may take into account a feature of the target console and thus do not work on other models. One such example is "Road Rash" for DMG. This game relies on a quirk of the original DMG CPU and is incompatible with GBC or newer. This game was released for GBC later. Another example is Chee-Chai Alien for GBC. This game requires the IR sensor and no other Game Boy console shipped with an IR sensor on board. A "-01" or any other number appended to the product code indicates a hardware revision. 
+* **Exceptions -** There are some Game Boy games that are exceptions to these rules, some have different colored cartridges, most notably the Pokémon games. Other cartridges have motion sensors, light sensors, rumble motors, and even cameras. Some games may take into account a feature of the target console and thus do not work on other models. One such example is "Road Rash" for DMG. This game relies on a quirk of the original DMG CPU and is incompatible with GBC or newer. This game was released for GBC later. Another example is Chee-Chai Alien for GBC. This game requires the IR sensor and no other Game Boy console shipped with an IR sensor on board. A "-01" or any other number appended to the product code indicates a hardware revision. Additionally, while *most* Game Boy Advance games do not require a battery for saving, [some early games still do.](https://gbatemp.net/threads/gameboy-advance-gba-games-requiring-batteries.322803/) 
  
  
 # Repairs and Damage
@@ -63,13 +69,20 @@ Game Boys are old and getting older. There are some common problems that many sy
  
 ## **Common problems**
  
-* **It won’t power on** - The two most common problems that keep all Game Boys from powering on is faulty power switches or blown fuses.
+* **Game Boy won’t power on** - The two most common problems that keep all Game Boys from powering on is faulty power switches or blown fuses.
  
-* **Dirty or damaged switches** can usually be fixed by cleaning out the switch. The most effective method to clean the power switch [is to disassemble the switch and ensure everything is clean from the inside-out.](https://www.youtube.com/watch?v=G946mQCkIQc) Less effective methods to clean the switch out are to spray contact cleaner inside the switch (or put a couple drops of rubbing alcohol), and simply work the switch back and forth. Make sure to let the switch dry out before turning it back on. Opening the switch is the most reliable and best solution but other methods may still help. The video example is for the AGB, but this process and issue applies to all models of Game Boy. 
+    * **Dirty or damaged switches** can usually be fixed by cleaning out the switch. The most effective method to clean the power switch [is to disassemble the switch and ensure everything is clean from the inside-out.](https://www.youtube.com/watch?v=G946mQCkIQc) Less effective methods to clean the switch out are to spray contact cleaner inside the switch (or put a couple drops of rubbing alcohol), and simply work the switch back and forth. Make sure to let the switch dry out before turning it back on. Opening the switch is the most reliable and best solution but other methods may still help. The video example is for the AGB, but this process and issue applies to all models of Game Boy. 
  
-* **Blown fuses** are a bit harder to fix simply because of the tiny soldering required. To test your fuse, a multimeter is usually needed. Most Game Boys have two fuses, usually marked “F1” and “F2” on the main boards. Usually one fuse is connected to the power jack (Charging port in SP and Micro systems or DC jack on CGB and MGB systems) and the other is connected to the battery inputs. Some have had success by bridging the fuse with a wire or solder, but if something is still shorted, you will likely irreparably damage your system. Note that the “power jack fuse” in pre-GBA Game Boys is actually a diode being used as a fuse. Please see [this (WIP) list of Game Boy components](https://docs.google.com/spreadsheets/d/17RfgOaR-P8M0cC5BojwuY52GbZUefLFm82To7ja963o/) to find the proper replacement fuse. 
+    * **Blown fuses** are a bit harder to fix simply because of the tiny soldering required. To test your fuse, a multimeter is usually needed. Most Game Boys have two fuses, usually marked “F1” and “F2” on the main boards. Usually one fuse is connected to the power jack (Charging port in SP and Micro systems or DC jack on CGB and MGB systems) and the other is connected to the battery inputs. Some have had success by bridging the fuse with a wire or solder, but if something is still shorted, you will likely irreparably damage your system. Note that the “power jack fuse” in pre-GBA Game Boys is actually a diode being used as a fuse. Please see [this (WIP) list of Game Boy components](https://docs.google.com/spreadsheets/d/17RfgOaR-P8M0cC5BojwuY52GbZUefLFm82To7ja963o/) to find the proper replacement fuse. 
  
 * [How to replace a battery in a Game Boy cartridge](https://www.youtube.com/watch?v=n3FsANHj300). If you use the "tape method" you will be shunned and made fun of, simultaneously. Solder and a tabbed CR1616 (must for GBA games) or tabbed CR2025/CR2032 are required. 
+    * Note on GBA games -- the above process is identical but a tabbed CR1616 must be used and the games are secured by a tripoint screw instead of a game bit screw. If your game is not [one of the following on this list](https://gbatemp.net/threads/gameboy-advance-gba-games-requiring-batteries.322803/) it does not need a battery to save. 
+	    * Additional note on the Pokemon games, specifically Ruby, Sapphire, and Emerald. The battery is not required for saving but instead for the Real-Time Clock (RTC) hardware. Without this battery, certain in-game events will not work such as Shoal Cave tides or berry growing. If this battery is dead, upon starting the game, you'll get a message that ["The internal battery has run dry."](http://www.vbalink.info/img/matty/Emerald-1.png) but everything else (aside from RTC based events) should still work normally, including saves. 
+		* Due to a quirk with the initilization of the RTC hardware, if you replace the battery in one of these games without deleting your save, your RTC still may not work despite the error message no longer occuring on the main menu. While not the exact same issue, the symptoms are identical to [the berry glitch](https://bulbapedia.bulbagarden.net/wiki/Berry_glitch) from Ruby and Sapphire (but it affects Emerald as well) but the fix is different. There are several different ways to fix this:
+		    * Start a new game.
+			* Dump the save and use a hex editor to adjust [0x00A0 (the RTC value offset).](https://web.archive.org/web/20160409163543/http://furlocks-forest.net/wiki/?page=Ruby/Sapphire_Save_Data_Map) PkHeX may also be able to do this for you. 
+			* Use homebrew to edit the offset. The original Game Boy Advance version has been taken down as the original site was not maintained. It may be found by searching "rtcread.gba" but otherwise [the software has been ported to DS as well.](https://sourceforge.net/projects/rtcread-ds/) Run the software on a DS or DS Lite with a SLOT-1 flash cart and the game you wish to fix in SLOT-2. From there, set the date to a date that is at or past the previous offset. The current date is usually a good bet. This is the least destructive method. 
+			* There may be other methods and this guide will be updated when appropriate but any of the three above methods are tested and will resolve the issue. 
  
 * Yellowing of the shell and/or battery cover
  
@@ -81,9 +94,9 @@ Game Boys are old and getting older. There are some common problems that many sy
   * What is it? Sometimes when using headphones, you will hear crackling or static noise in the headphones. It is especially noticeable when twisting the plug in the jack. It’s a pretty rare problem but generally easy to fix.
   * How do I fix it? What you will need:
  
-  1. [QD Electronics Cleaner](https://www.homedepot.com/catalog/productImages/1000/6d/6d55c965-a581-4507-900a-aee92f61c94e_1000.jpg) -- found at Home Depot and most auto parts stores -- referred to generically as "contact cleaner" (not the stuff for corrective lenses, but the stuff for electronics)
-  2. Pipe cleaners -- found at some grocery stores and sometimes the Wal-Mart craft aisle
-  3. Spray the end of a pipe cleaner and stick it in the jack, moving it back and forth in the jack. This will clean the jack and help free any stuck parts in there. You also want to make sure that the headphone detect switch inside the jack gets a cleaning. 
+      * [QD Electronics Cleaner](https://www.homedepot.com/catalog/productImages/1000/6d/6d55c965-a581-4507-900a-aee92f61c94e_1000.jpg) -- found at Home Depot and most auto parts stores -- referred to generically as "contact cleaner" (not the stuff for corrective lenses, but the stuff for electronics)
+      * Pipe cleaners -- found at some grocery stores and sometimes the Wal-Mart craft aisle
+      * Spray the end of a pipe cleaner and stick it in the jack, moving it back and forth in the jack. This will clean the jack and help free any stuck parts in there. You also want to make sure that the headphone detect switch inside the jack gets a cleaning. 
   
   * This issue could also be caused by a dirty volume wheel (or slider on the SP, it's the same thing). You can try to clean the volume wheel by spraying contact cleaner inside it but for best, long term results, replacement may be required. 
  
@@ -92,9 +105,9 @@ Game Boys are old and getting older. There are some common problems that many sy
   * What are they? Sometimes alkaline batteries will leak when left in systems for too long. Cheaper batteries tend to puke up their guts quicker. This will cause the nickel plating on the battery contacts to corrode, leading to a greyish/blue crust on the contacts.
   * How do I fix it? This depends on how far gone the contacts are. If there’s only a little bit of corrosion, you can use a Q-tip and a bit of vinegar and water and scrub the contacts with it. For more advanced cases, the contacts may need to be removed and soaked:
  
-  1. Use a tripoint screwdriver to open the case. This driver can be found on Amazon or from sites like [Handheld-Legend](https://handheldlegend.com/collections/dmg/products/tri-wing-screwdriver-for-nintendo-game-boy-original-color-advance-and-ds?variant=35317249155) or [Mortoff Games](https://www.mortoffgames.com/gameboy-original/repair-replacement-parts/system-repair-parts/triwing-security-screw-driver) though getting a full toolkit from ifixit or the like is not a bad idea either. 
-  2. Using a small screwdriver, press on the tab holding each of the 3 larger contacts (DMG, other systems only have one contact plate) in place and push down while pressing to push the contacts out of the shell.
-  3. Give them a bath in a 50/50 vinegar and water solution for about 15 minutes.
+      * Use a tripoint screwdriver to open the case. This driver can be found on Amazon or from sites like [Handheld-Legend](https://handheldlegend.com/collections/dmg/products/tri-wing-screwdriver-for-nintendo-game-boy-original-color-advance-and-ds?variant=35317249155) or [Mortoff Games](https://www.mortoffgames.com/gameboy-original/repair-replacement-parts/system-repair-parts/triwing-security-screw-driver) though getting a full toolkit from ifixit or the like is not a bad idea either. 
+      * Using a small screwdriver, press on the tab holding each of the 3 larger contacts (DMG, other systems only have one contact plate) in place and push down while pressing to push the contacts out of the shell.
+      * Give them a bath in a 50/50 vinegar and water solution for about 15 minutes.
  
   If the nickel plating is eaten through, then the contacts will need to be replaced.
  
@@ -115,19 +128,17 @@ Speaker Wire Replacement
 * Vertical lines in the LCD
  
   * What are they? This is a VERY common problem with DMGs. These show up as missing vertical lines on the LCD. Sometimes if you press on the rubber strip below the LCD, you can get the lines to disappear for a short period of time.
-  * How do I fix it? Fortunately, this problem is generally pretty easy to fix. See [here](https://www.youtube.com/watch?v=l4PArFarm_) or [here](http://www.instructables.com/id/Game-Boy-DMG-Vertical-Line-Repair/). One thing worth noting is that you should continue with the iron until you can briefly run the iron across the entire bottom of the LCD and the lines don’t show up anymore. You can get the lines to disappear but until you make sure they stop showing up with heat applied, it won’t be a long-lasting repair. 500 F is an adequate amount of heat to use.
+  * How do I fix it? Fortunately, this problem is generally pretty easy to fix. See [here](https://www.youtube.com/watch?v=l4PArFarm_) or [here](http://www.instructables.com/id/Game-Boy-DMG-Vertical-Line-Repair/). One thing worth noting is that you should continue with the iron until you can briefly run the iron across the entire bottom of the LCD and the lines don’t show up anymore. You can get the lines to disappear but until you make sure they stop showing up with heat applied, it won’t be a long-lasting repair. 500° F / 260° C is an adequate amount of heat to use.
  
 * Horizontal lines in the LCD
  
   * What are they? Not nearly as common a problem as vertical lines, but they do still show up every now and then. The problem is similar to vertical lines, but instead the lines show up horizontally across the screen.
   * How do I fix it? You will have to lift the LCD from its plastic bezel to gain access to the horizontal ribbon cable. This is a much more difficult fix than the vertical lines fix, but it can be done.
  
-  1. Remove the 2 screws holding down the vertical ribbon cable.
-  2. Carefully pry the LCD free from the plastic bezel using a plastic implement of some sort.
-  3. Prop up the LCD so you can access the horizontal ribbon cable with a soldering iron. The area of interest looks much like the area on the vertical cable underneath the rubber strip.
-  4. Gently run the iron back and forth across this area until the lines disappear.
- 
-  500 F is an adequate amount of heat to use.
+      * Remove the 2 screws holding down the vertical ribbon cable.
+      * Carefully pry the LCD free from the plastic bezel using a plastic implement of some sort.
+      * Prop up the LCD so you can access the horizontal ribbon cable with a soldering iron. The area of interest looks much like the area on the vertical cable underneath the rubber strip.
+      * Gently run the iron back and forth across this area until the lines disappear. 500° F / 260° C is an adequate amount of heat to use.
  
 ##**Game Boy Pocket Problems**
  
@@ -166,7 +177,7 @@ Speaker Wire Replacement
 * One or both shoulder buttons do not work
  
   * What is it? When pressing either the L or R button, sometimes or always the input is not registered by the console. Like the power switch, the buttons internally tend to gather dirt and gunk and no longer make electrical contact when actuated.
-  * How do I fix it? The console will need to be disassembled and the switch cleaned or replaced. Replacement switches can be sourced on places like Mouser, Digikey, or RetroModding, but usually cleaning the button is sufficient. Occasionally the buttons can be cleaned without disassembling by soaking in rubbing alcohol or electrical contact cleaner (please allow sufficient time to dry before reassembly), but [disassembling this switch](https://www.youtube.com/watch?v=ZqgrlHcCrzc) may yield the best results.
+  * How do I fix it? The console will need to be disassembled and the switch cleaned or replaced. Replacement switches can be sourced on places like Mouser, Digikey, or RetroModding, but usually cleaning the button is sufficient. Occasionally the buttons can be cleaned without disassembling by soaking in rubbing alcohol or electrical contact cleaner (please allow sufficient time to dry before reassembly), but disassembling the switch or replacing it entirely may yield the best results.
   
 * Game Boy Advance SP power LED is always RED even on new batteries or LED will flicker
  
@@ -187,8 +198,19 @@ Speaker Wire Replacement
 	  * If the charge light does not come on at all and you've ruled out the power adapter, the issue may be with the component F2. F2 is a small surface mount fuse located near the link port on the back of the PCB. With your multimeter, check and see if you have continuity across the component. If not, you'll need to replace this fuse. [Check out this (WIP) spreadsheet for the P/N and spec of a replacement fuse.](https://docs.google.com/spreadsheets/d/17RfgOaR-P8M0cC5BojwuY52GbZUefLFm82To7ja963o/) Do keep in mind that fuses are safety devices and they only ever blow to protect the system from faults. If your fuse does not have continuity across it, that means it has blown due to a fault. You need to ensure that the fault is cleared before replacing the fuse or the next fuse will blow too. If you opt to bypass the fuse instead of replacing it and your system develops a fault, you could destroy your system entirely with no hope of repair. F2 typically blows when there is a short across the charge port or if there is a fault with the charger itself. 
 	  * If the charge light comes on for a second and shuts off and you've already ruled out the battery, this could indicate a blown fuse. Does your console boot normally? If the console does not boot on a known (or at least assumed) good battery, you'll need to check the component F1. This is a surface mount fuse and it is located on the front of the PCB right underneath the A and B buttons. With your multimeter, check and see if you have continuity across the component. If not, you'll need to replace this fuse. [Check out this (WIP) spreadsheet for the P/N and spec of a replacement fuse.](https://docs.google.com/spreadsheets/d/17RfgOaR-P8M0cC5BojwuY52GbZUefLFm82To7ja963o/)
 	* If none of this helped, congrats, you have a unique issue. Try posting on discord or reddit for help (with good pictures). 
+	
+* Shell is cracked or broken in multiple places
+
+  * What is it? The shells of some late model AGS consoles are made with defective plastics that tend to get extremely brittle over time. This issue seems most prevalent with Pearl Blue AGS-101 consoles but may affect Graphite AGS-101 consoles or other late model units. [See this imgur album](https://imgur.com/a/dhfax) for more information. 
+  * How do I fix it? Well, unfortunately, there is know currently known fix for this issue. If the console is already broken, you can try to glue it back together but the structural damage to the plastic has already been done and this will likely be temporary at best. The only way to "fix" this is to reshell the console in either a new aftermarket shell or with a salvaged OEM shell from another SP. 
  
- 
+##**Game Boy Micro Problems**
+
+* Faceplate does not clip in or does not stay clipped in when installed. 
+
+  * What is it? The plastic frame of some Game Boy Micro consoles are made with defective plastics that tend to get extremely brittle over time. This issue seems most prevalent with Silver colored consoles but may affect or other units as well. [See this imgur album](https://imgur.com/a/dhfax) for more information. 
+  * How do I fix it? Well, unfortunately, there is know currently known fix for this issue. If the console is already broken, you can try to use double-sided tape or other adhesives to hold the faceplate on but the structural damage to the plastic has already been done and any fixes will likely be temporary at best. The only way to "fix" this is to replace the front internal frame of the console with a salvaged OEM frame from another console. 
+
 # Mods
  
 Here at r/Game_Boy, we have a much larger modding community than other retro-gaming subreddits. Mods are simply modifications to the Game Boy system. They can be simple or complex. The most popular modifications add light to the screens of the older Game Boy systems that relied on external light to be seen or even retrofit a newer screen into the console. Other popular mods include painting systems for a custom look, adding rechargeable batteries to systems that didn’t have it, clearing up the fuzzy sound, or even speeding up and slowing down games. Some modders want lots of mods in their systems, some only want one or two. Whatever your preference, there are a lot of experienced modders here at r/Game_Boy happy to help when you run into trouble. For some of the more popular system specific mods, see below. Not all consoles are listed because not all consoles have mod kits available. Not all mod kits are listed either but PM the mods or submit a pull request ([here](https://github.com/RGameBoy/Wiki)) to correct this. Some kits may have generic versions or may be acquired through less than legitimate channels. Where applicable, the legitimate source for these kits is what is listed.
@@ -212,25 +234,29 @@ Here at r/Game_Boy, we have a much larger modding community than other retro-gam
 
 * Replacement 3" screen (stock is 2.4", parts from [BennVenn](https://bennvenn.myshopify.com/collections/aftermarket-lcds/products/dmg-3-backlit-lcd-kit) - [Image Guide](https://bennvenn.myshopify.com/pages/dmg-lcd-install-guide)
 
+* Replacement transflective LCD kit (AIO kit, much smaller than stock, found on [aliexpress](https://www.aliexpress.com/item/4000408551332.html)) - No third party guides yet, see the images on the seller's page
+
+* Replacement transflective LCD kit (**Freckleshack v2.5 - Aioli** parts from [BennVenn](https://bennvenn.myshopify.com/collections/aftermarket-lcds/products/freckleshack-pre-orders-batch-7?variant=29881069535335)) – Kits not yet shipped but install should be similar to AIO kit above due to the reduced PCB size and addition of touch sensor for brightness control
+
 * Replacement stock sized kit from BennVenn - [coming soon](https://www.facebook.com/BennVennElectronics/posts/2482250121888426)
 
 * Replacement IPS LCD kit (parts: [Funnyplaying](https://www.instagram.com/p/Byy_iyBHk5l/)): coming soon
 
 * Bivert module install (parts: [HandHeldLegend](https://handheldlegend.com/collections/dmg/products/game-boy-bivert-biversion-module)) – [Video Guide](https://www.youtube.com/watch?v=xS8NQ3dds2k)  
 
-* Bivert mini module install (parts: [Hidarite](https://www.tindie.com/products/hidarite/bivert-pcb-for-game-boy-dmg/) or [Retromodding](https://www.retromodding.com/collections/gameboy/products/game-boy-bivert-board) – Install is largely the same as above module
+* Bivert mini module install (parts: [Retromodding](https://www.retromodding.com/collections/gameboy/products/game-boy-bivert-board) – Install is largely the same as above module
 
 * Bivert bare chip install (Cheaper generic chips - check ebay or aliexpress) – [Instructables guide](http://www.instructables.com/id/Game-Boy-BivertBiversion-Moditication/)  
 
 * Soft latching bivert install (Switch biversion off and on) – [Step by step guide](http://imgur.com/a/LEo8U)  
 
-* RGB backlight dipswitch install – [Credit to the_8bit_kingdom](http://imgur.com/a/lA0lw)  
+* RGB backlight DIP switch install – [Credit to the_8bit_kingdom](http://imgur.com/a/lA0lw)  
 
 * How to change housing/shell – [Video Guide](https://www.youtube.com/watch?v=nfSkP6pejR0)  
 
 * RGB colour changing backlight – [Documented project](https://imgur.com/a/dUaim#0DwYjRw)  
 
-* Prosound mod (parts: Retromodding](https://www.retromodding.com/collections/gameboy/products/gameboy-pcb-mount-pro-sound-v3) or [Kitsch-Bent](https://store.kitsch-bent.com/product/prosound-kits)) – [Simple to follow tutorial](https://snapguide.com/guides/mod-your-dmg-gameboy-with-prosound-stereo-jack/)/[Video Guide](https://www.youtube.com/watch?v=FGlY0quuHGw)  
+* Prosound mod (parts: [Retromodding](https://www.retromodding.com/collections/gameboy/products/gameboy-pcb-mount-pro-sound-v3) or [Kitsch-Bent](https://store.kitsch-bent.com/product/prosound-kits)) – [Simple to follow tutorial](https://snapguide.com/guides/mod-your-dmg-gameboy-with-prosound-stereo-jack/)/[Video Guide](https://www.youtube.com/watch?v=FGlY0quuHGw)  
 
 * USB rechargeable batteries – [Step by step guide](http://imgur.com/a/uIpq4)  
 
@@ -247,13 +273,15 @@ Here at r/Game_Boy, we have a much larger modding community than other retro-gam
 
 * Replacement transflective LCD kit (AIO kit, smaller than stock, found on [aliexpress](https://www.aliexpress.com/item/4000277929265.html)) - [Video Guide](https://www.youtube.com/watch?v=gT1XbwIfRYk)
 
+* Replacement transflective LCD kit (**Freckleshack v2.5 - Aioli** parts from [BennVenn](https://bennvenn.myshopify.com/collections/aftermarket-lcds/products/freckleshack-pre-orders-batch-7?variant=29881069535335)) – Kits not yet shipped but install should be similar to AIO kit above due to the reduced PCB size and addition of touch sensor for brightness control
+
 * Replacement stock sized kit from BennVenn - [coming soon^^^TM](https://www.facebook.com/BennVennElectronics/posts/2482250121888426)
 
 * Bivert DMG module install (parts: [HandHeldLegend](https://handheldlegend.com/collections/dmg/products/game-boy-bivert-biversion-module)) – [Video Guide](https://www.youtube.com/watch?v=lqOtKcprt7Y)  
 
 * Bivert chip install (and comparison) – [Step by step guide](https://handheldlegend.com/blogs/news/115066947-game-boy-pocket-bivert-installation-and-comparison)  
 
-* Bivert mini module (parts: [Hidarite](https://www.tindie.com/products/hidarite/bivert-pcb-for-game-boy-pocket/) or [HHL](https://handheldlegend.com/products/game-boy-pocket-bivert-module-mini)) - [Image Guide](https://imgur.com/a/HSkyd2U) or [Video Guide](https://www.youtube.com/watch?v=vAoFNnsCR24)
+* Bivert mini module (parts: [HHL](https://handheldlegend.com/products/game-boy-pocket-bivert-module-mini)) - [Image Guide](https://imgur.com/a/HSkyd2U) or [Video Guide](https://www.youtube.com/watch?v=vAoFNnsCR24)
 
 * Replacement shell/housing – [Written guide]( https://jonathansblog.co.uk/gameboy-pocket-case-mod)  
 
@@ -261,14 +289,19 @@ Here at r/Game_Boy, we have a much larger modding community than other retro-gam
 
 
 ## **Game Boy Color Mods**
+
+Game Boy Color screen mods come in many different sizes. Please see this [image guide](https://imgur.com/a/niZ1A2p) for more info. Currently only the Funnyplaying IPS kit is the same size as stock. The other screens have a display area that is noticeably smaller than stock.
  
 * Backlight OEM LCD (?!) – [Step by step guide.](https://docs.google.com/document/d/1Ht5q3zw1vCoMdFDzFzgIKOSc5ckwd9W1ylegf8JsnnA/edit) (This method is rather out of date and yields sub optimal results and [as of 2019-10-31, BennVenn is working on improving this process](https://www.facebook.com/BennVennElectronics/posts/2513453608768077))
 
-* Replacement transflective LCD kit (**AIO kit**, similar to Freckleshack v2, parts from [aliexpress](https://www.aliexpress.com/item/4000277395061.html) - New Video Guide soon, old one here: [Part 1](https://www.youtube.com/watch?v=vTVieBUHSPc) and [part 2](https://www.youtube.com/watch?v=8j3ES_APieo)
+* Replacement transflective LCD kit (**AIO kit**, similar to Freckleshack v2, parts from [aliexpress](https://www.aliexpress.com/item/33060031573.html) -- if link is dead, search "gameboy color backlight" on aliexpress) - [Video Guide](https://youtu.be/CUzda_H1Hks)
+    * Do note that there are currently six different known hardware variations of this kit and some of them drop frames when installed in a Game Boy Color. See [this video](https://www.youtube.com/watch?v=68uECuyASgo) or [this imgur album](https://imgur.com/a/KF9GLSc) for more information. Confirmed resellers as of 2019-12-14 of the "pirate kit" are [Retro Game Repair Shop](https://retrogamerepairshop.com/products/nintendo-gameboy-color-backlight-mod-gbc-game-boy) and [HandHeldLegend](https://handheldlegend.com/products/game-boy-color-backlit-display) (despite the pictures on either site). 
 
-* Replacement transflective LCD kit (**Freckleshack v2** parts from [BennVenn](https://bennvenn.myshopify.com/collections/aftermarket-lcds/products/freckleshack-pre-orders-batch-7?variant=29881069535335)) – [Video guide](https://www.youtube.com/watch?v=NbHfXdoiW-Q)
+* Replacement transflective LCD kit (**Freckleshack v1/v2** discontinued in favor of v2.5 and v3) – [Video guide](https://www.youtube.com/watch?v=NbHfXdoiW-Q)
 
-* Replacement transflective LCD kit (**McWill v1.1**, similar to Freckleshack v2, parts from [Retromodding (US)](https://www.retromodding.com/products/mcwills-game-boy-color-lcd-upgrade) or [Dragonbox Shop (EU)](https://www.dragonbox.de/en/spare-parts-tools/console-mods/gameboy-color-lcd-mod-incl-glass-cover-and-usb-mod-mcwill)) - [PDF Instructions](https://cdn.shopify.com/s/files/1/1309/0597/files/Quick_Guide_GBC_REV1_1.pdf?8757)
+* Replacement transflective LCD kit (**Freckleshack v2.5 - Aioli** parts from [BennVenn](https://bennvenn.myshopify.com/collections/aftermarket-lcds/products/freckleshack-pre-orders-batch-7?variant=29881069535335)) – Kits not yet shipped but install should be similar to AIO kit above due to the reduced PCB size and addition of touch sensor for brightness control
+
+* Replacement transflective LCD kit (**McWill v1.1**, similar to Freckleshack v1/v2, parts from [Retromodding (US)](https://www.retromodding.com/products/mcwills-game-boy-color-lcd-upgrade) or [Dragonbox Shop (EU)](https://www.dragonbox.de/en/spare-parts-tools/console-mods/gameboy-color-lcd-mod-incl-glass-cover-and-usb-mod-mcwill)) - [PDF Instructions](https://cdn.shopify.com/s/files/1/1309/0597/files/Quick_Guide_GBC_REV1_1.pdf?8757)
 
 * Replacement transflective LCD kit (**Midwest Embedded**, similar to Freckleshack v2, parts from [MWE](https://www.mw-embedded.com/product/gameboy-color-replacement-lcd-module/)) - [Video Guide](https://www.youtube.com/watch?v=6aQMkU88j_M)
 
@@ -276,11 +309,9 @@ Here at r/Game_Boy, we have a much larger modding community than other retro-gam
 
 * Replacement IPS LCD kit (Freckleshack XL?, larger than stock) - [in development](https://www.facebook.com/BennVennElectronics/posts/2280491595397614)
 
-* Replacement IPS LCD kit (Funnyplaying, stock sized): [coming soon](https://www.instagram.com/p/B13CGeYHGOA/)
+* Replacement IPS LCD kit (Funnyplaying, stock sized, now [stocked on funnyplaying.com](https://funnyplaying.com/collections/gameboy-color/products/for-gbc-ips-high-light-backlight-lcd-kits) and on Retromodding soon): [Video install](https://www.youtube.com/watch?v=PySvT126Loo)
 
 * Frontlight mod (parts: [HHL](https://handheldlegend.com/collections/gbc/products/game-boy-color-frontlight))– [Video Guide (LOCA highly recommended)](https://www.youtube.com/watch?v=jWZhsYP9IZQ)/[Instructables Guide](http://www.instructables.com/id/How-to-add-a-frontlight-to-your-Gameboy-Color/) or [Video Guide V2 (no LOCA required)](https://www.youtube.com/watch?v=rrmoYjko0i0)
-
-* Change GBC contrast – [Video Guide](https://www.youtube.com/watch?v=LsVSipJmLSY)  
 
 * Prosound – [Written guide](http://www.littlesounddj.com/lsd/prosound/)/[Video Guide](https://www.youtube.com/watch?v=TnVVYloUE1k)  
 
@@ -305,7 +336,7 @@ Here at r/Game_Boy, we have a much larger modding community than other retro-gam
 
 * Replacement IPS LCD kit (Funnyplaying v2, slightly larger than stock): https://funnyplaying.com/products/4-pixels-in-1-ips-full-viewing-angle-gameboy-advance-replacement-project
 
-* Replacement NDSL LCD kit (From BennVenn, smaller than stock): [coming soon^^^TM]()
+* Replacement NDSL LCD kit (From BennVenn, smaller than stock): [coming soon^^^TM](https://www.facebook.com/BennVennElectronics/posts/2448976045215834)
 
 * USB rechargeable batteries – [DIY guide](http://imgur.com/a/2653q)  
 
@@ -315,7 +346,7 @@ Here at r/Game_Boy, we have a much larger modding community than other retro-gam
 
 * Overclock module (GBAccelerator, parts from [Retromodding](https://www.retromodding.com/collections/gameboy-advance/products/gbaccelerator) - [Install guide](https://division-6.com/learn/gbaccelerator/installation-game-boy-advance/)
 
-* Overclock module (**GBA GlockxControl**, parts from [InsideGadgets](https://shop.insidegadgets.com/product/gba-clockxcontrol/)) - currently no install guide for this module but should be similar to above
+* Overclock module (**GBA ClockxControl**, parts from [InsideGadgets](https://shop.insidegadgets.com/product/gba-clockxcontrol/)) - currently no install guide for this module but should be similar to above
 
 * Audio amplifier / loud speaker (parts from [Retromodding](https://www.retromodding.com/collections/gameboy-advance/products/game-boy-advance-audio-amplifier)) - [Image Guide](https://www.retromodding.com/blogs/tutorials/game-boy-advance-audio-amplifier-installation-guide) or [Video Guide / TDNC Review](https://www.youtube.com/watch?v=VIJyj_X38cI)
 
@@ -349,7 +380,46 @@ Here at r/Game_Boy, we have a much larger modding community than other retro-gam
 
 * Replace hinge pins (shell swap) – [Written Guide](https://imgur.com/a/z21z1) or [this thread/video guide](https://www.reddit.com/r/Gameboy/comments/bxzub8/how_to_easily_remove_the_hinges_from_a_gba_sp/)
 
-* Internal headphone jack mod (parts from [Hidarite](https://www.tindie.com/products/hidarite/headphone-jack-pcb-for-game-boy-advance-sp/)) - [Image Guide](https://imgur.com/a/mqhpRvp)
+* Internal headphone jack mod (parts from [Hidarite](https://www.tindie.com/products/hidarite/headphone-jack-pcb-for-game-boy-advance-sp/)) - [Image Guide](https://imgur.com/a/mqhpRvp) **note that the maintainer of this webstore has seemingly abandoned it. Order at your own risk.**
+ 
+ 
+# Cartridge Readers
+ 
+This section will go over the various methods available to interface directly with Game Boy Game Paks. Cartridge readers are useful as they allow you to back up the ROM and RAM (save data) or restore the RAM of nearly any game. This is useful because some games use a battery for save data retention and when this battery dies or is replaced, the save data will be wiped. With a cartridge reader, you can backup the save before this happens and restore the save after the battery is replaced. All Game Boy and Game Boy Color games that save use battery backed RAM but [only a handful of Game Boy Advance games use a battery backed save.](https://gbatemp.net/threads/gameboy-advance-gba-games-requiring-batteries.322803/) Another useful feature of a cartridge reader is that if you backup the ROM of your game, you can then play this game on an emulator on your PC or other device (but this is outside the scope of this wiki). Finally, some modified or custom games may reflashed with other ROMs or even common bootleg or reproduction games may be reflashed (though compatibility with these varies depending on the specific revision and cart reader and reliability or save compatibility can be lacking). Bolded devices are standalone readers whereas the rest of the devices are typically modified consoles.
+
+## Game Boy, Game Boy Color, and Game Boy Advance Game Pak devices: 
+ 
+* **BennVenn's Joey Gen 3: Joey Joebags -** This is the cart reader that really got the scene moving. It was not the first cart reader and it will not be the last but while it was supported, it featured the best compatibility with all Game Boy cartridges, including support for reflashing bootleg cartridges, and even supports Windows, Linux, and Mac computers. Unfortunately, [BennVenn has dropped support for this model and discontinued it in favor of the gen 4 reader, the Joey Jr](https://www.facebook.com/BennVennElectronics/posts/2534118816701556) but it is still a very capable and robust reader. 
+ 
+* **BennVenn's Joey Gen 4: Joey Jr. -** This is BennVenn's "ultra rugged" and "ultra portable" cart reader. Unlike the gen 3, this unit does not require installing custom software and using unsigned drivers (on Windows PCs) and thus makes setup and use even easier. When plugged into a computer with a cart inserted, the Joey shows up as a removable drive with the game files on that drive. From there, you can just add or copy files to backup ROM/RAM or to restore RAM. Recently, flashing support has been added to close the feature gap between gen 3 readers and gen 4 readers. When in stock, [you can grab one from BennVenn's website here.](https://bennvenn.myshopify.com/collections/game-cart-to-pc-interface/products/usb-gb-c-cart-dumper-the-joey-jr?variant=12213934620775)
+ 
+* **insideGadgets' GBxCart RW -** This is functionally similar to the Joey gen 3 except that the device is completely open source. Compatibility is largely the same but the GBx device does support a few carts that the joey gen 3 does not and vice versa. All original carts are supported on both devices. Software is written in C++ and has pre-compiled executables for Windows but the software may be compiled easily for Linux or Mac devices (though the [CartBoy software](https://github.com/KevinVitale/CartBoy) may be a better option for Macs). There are a few different hardware variants that add or change features like USB port or automatic voltage selection depending on the game but the most recent revision was the introduction of the "Pro" model. The Pro model is identical to the standard model except that the PCB is shaped differently to allow you to install the the reader in a Game Boy Advance cartridge shell (aftermarket shells fit better). You can buy one from the [insideGadgets store here.](https://shop.insidegadgets.com/product/gbxcart-rw/)
+ 
+* **Sanni's Cart Reader -** This is a fully open source reader that supports both Game Boy (Color) and Game Boy Advance cartridges. Compatibility with OEM games is near 100%, just like the other readers above, but this reader actually supports a few other systems as well like N64, SNES, Megadrive, etc. Sanni is constantly updating the software and hardware to add support for more devices. Beyond the support for more systems (which is outside the scope of this wiki), this device has a few more things that set it apart from the other readers. The biggest difference is that it is not actually sold anywhere. If you want one, you'll have to DIY it or buy a home made reader from a third party. Another big difference is that this device does not interface with a PC for reading and writing carts. It stores games and saves on a (micro) SD card attached to the reader. Because of the modular design of this reader, you can also add a battery, buttons, and screen to it and eliminate the requirement of a PC altogether. This reader has the worst bootleg compatibility out of the Joey gen 3 and GBxCart RW but it does still support most of the common bootlegs. You can read more about the device [on the sanni's Github repository for the cart reader.](https://github.com/sanni/cartreader)
+
+* **Retrode + GBx Plugin -** This is another third party home console that may be used to interface directly with the carts. Well, it's less a console and more a Joey Jr style device that also supports controllers. It's basically an interface for emulators to interact directly with original controllers and cartridges. It supports SNES and Megadrive out of the box but an adapter allows Game Boy cartridge compatibility. See [this guide](http://imgur.com/a/9NrzL) from u/Slinky64 for the process. You'd need a [Retrode](https://www.dragonbox.de/en/accessories/cartridge-dumper/retrode-2-cartridge-dumper) and the [GBx plugin](https://www.dragonbox.de/en/accessories/cartridge-dumper/retrode2-gbx-plugin-cartridge-dumper) for the retrode. 
+
+* RetroN5 - This device is primarily a home console but it may be used to back up and restore saves. [See this guide here](http://gaming.stackexchange.com/a/228290) for the process and you can find out more about [the device itself here.](https://hyperkin.com/Retron5/)
+
+* Nintendo GameCube + Game Boy Player + Game Boy Interface - If you have a GameCube and a Game Boy Player installed, you may have heard of [Game Boy Interface, or GBI.](https://www.retrorgb.com/gameboyinterface.html) GBI is homebrew that runs only on GameCubes with Game Boy Player hardware attached. It is a replacement for the software that comes with the Game Boy Player and it includes several enhancements over the original software. This software requires a method to run homebrew on your GameCube but it can also be used to dump games and saves. [See this quick guide for more info.](https://wiki.no-intro.org/index.php?title=Game_Boy_Advance_Dumping_Guide#Game_Boy_Player_Method)
+
+## Game Boy and Game Boy Color Game Pak only devices: 
+
+* **insideGadgets' GBxCart Mini RW -** This is a Game Boy and Game Boy Color only version of the regular GBxCart RW. The lack of Game Boy Advance support comes at a reduced price. Features are identical otherwise. You can buy one from the [insideGadgets store here.](https://shop.insidegadgets.com/product/gbxcart-rw/)
+
+* **HDR's GBFlasher-Micro -** This device is built using a modified schematic of the [original cartridge reader from the early 2000s made by Reiner Ziegler.](https://reinerziegler.de.mirrors.gg8.se/readplus.htm#GB_Flasher) JRodrigo also made ([and sells](https://www.tindie.com/products/JRodrigo/cart-flasher-for-gameboy/)) a cart reader based on these schematics but HDR has added a few extra features that over the other readers. This device only support OEM Game Boy and Game Boy Color cartriges and a few homebrew cartridges made with AM29F016/F032 or MBM29F033C chips. HDR's firmware and PC software will work with JRodrigo's devices if you already have that device but the primary change in hardware is that HDR has made his readers physically smaller and is using parts that are much easier to hand solder. HDR's software itself has quite a few features, including full Windows 10 (64 bit) compatibility, support for 4 MB MBC30 homebrew games, and even firmware updates via USB for the reader. Check out HDR's github repo for the [hardware here](https://github.com/HDR/GBFlasher-Micro) and the [software here.](https://github.com/HDR/GBFlasher-Software) These devices are not currently sold but if you contact HDR via [discord](http://discord.gg/gameboy), he may be able to sell an extra unit. 
+
+* **Altane -** This device is very similar to the Reiner Ziegler based flashers above and has similar compatibility and features. Does not support bootleg or repro cart flashing but will flash homebrew carts like the device above. [See this site for more info](https://altane.gg8.se/) or you can buy one from [retromodding.](https://www.retromodding.com/products/altane?_pos=1&_sid=80c2aa509&_ss=r)
+
+* Nintendo 64 + GB Transfer Pak - Using the Nintendo home console, you can manage save files on Game Boy (Color) cartridges and even save or dump ROMs. You'll need a way to run homebrew on the N64 ([like an Everdrive](https://krikzz.com/store/home/55-everdrive-64-x7.html) or similar) but otherwise, [here is a guide.](http://micro-64.com/features/gbromdumping.shtml)
+
+## Game Boy Advance Game Pak only devices: 
+
+While there are no stand-alone readers that work on Game Boy Advance only carts, there are a few methods using game console hardware that does only work on GBA carts. 
+
+* Nintendo DS (Lite) + SLOT-1 Flash Cart - If you have a DS console that has a GBA slot and if you have a SLOT-1 flash cart like an R4 device or Acekard, you can use the homebrew software [GBA Backup Tool](https://www.gamebrew.org/wiki/GBA_Backup_Tool) to save the ROM or RAM of a Game Boy Advance cartridge to the internal memory card of your SLOT-1 flash cart. This device only supports reading ROMs and reading and writing RAM for *most* game carts. 
+
+* Nintendo GameCube / Wii + Game Boy Advance Cable - This combination uses GameCube homebrew software to run multiboot software on a connected Game Boy Advance that will allow you to read and write RAM and dump ROMs. This method requires a GameCube that is capable of running homebrew or, more likely, a Wii that is capable of running homebrew and has GC controller ports. Do note that dumping a game can be very time consuming due to interface limitations. [See this github repo for more information.](https://github.com/FIX94/gba-link-cable-dumper)
  
  
 # FAQ
@@ -371,6 +441,8 @@ A flash cart is a Game Boy cartridge that allows you to download and play homebr
 There are loads of tutorials online and on this subreddit for all sorts of Game Boy related issues. **Use the search function!** Here are some related links:
  
 [Fake Cartridge Thread](https://www.reddit.com/r/Gameboy/comments/ce2804/fake_cartridge_thread_2019_second_edition/)
+
+[HOW TO GUIDE: Identifying fake GB/GBA games even without opening the carts (w/ album)! by u/SeanOrtiz](https://www.reddit.com/r/Gameboy/comments/ecv73j/how_to_guide_identifying_fake_gbgba_games_even/)
  
 [Help Identifying Fake GBA games](http://gbatemp.net/threads/identifying-fake-gba-games-a-useful-faq.327354/)
  
@@ -396,28 +468,49 @@ With exception of "PIL", most "acronyms" are the model number of the console.
 
 * OXY - Game Boy Micro
 
-# Modders and Custom Part Shops
+# Helpful Links from the Game Boy Discord
 
-* [Kitsch-Bent](http://kitsch-bent.com) - Custom parts, mods, flash carts, etc.
+* Game Boy Discord: https://discord.gg/gameboy
+* Documentation and Tools for Nintendo systems (put together by u/MrHDR): https://nintenfo.github.io/
+* List of Game Boy dev resources: https://github.com/avivace/awesome-gbdev
+* Game Boy dev Discord: https://discord.gg/gpBxq85
+* InsideGadgets Discord: https://discord.gg/X2wS8eh
+* List of information on Game Boy carts: https://github.com/gbdev/awesome-gbdev/blob/master/CartridgeList.csv
+* Hardware Database(by u/gekkio): https://gbhwdb.gekkio.fi/
+* AGB-101 40 pin ghosting fix: https://www.reddit.com/r/Gameboy/comments/5r8i0e/ags101_gba_mod_image_retention_fix_40pin_white
+* GBA cartridge battery replacement tutorial (by u/MrHDR): https://www.ifixit.com/Guide/Game+Boy+Advance+Cartridge+Battery+Replacement/103523
+* Replacement parts sheet (Work in progress): https://docs.google.com/spreadsheets/d/17RfgOaR-P8M0cC5BojwuY52GbZUefLFm82To7ja963o/
+* Adafruit soldering guide: https://learn.adafruit.com/adafruit-guide-excellent-soldering/
+* Information about de-yellowing plastic: http://hellcathq.com/breakdown-of-de-yellowing-techniques-for-retro-computers-and-consoles/
+* Fake Cartridge Thread 2019: https://www.reddit.com/r/Gameboy/comments/ce2804/fake_cartridge_thread_2019_second_edition/
+* Open Game Boy Documentation Project(Has a lot of info on the hardware side of consoles and cart): https://mgba-emu.github.io/gbdoc/
 
+# Shops and Custom Sellers
+
+*While shops and sellers are sorted by their location, the bigger stores and some sellers usually ship internationally. Check with each store for shipping rates.*
+
+## North America
+* [Catskull Electronics](https://catskullelectronics.com/) - Chiptune accessories and more
+* [Dr. Gameboy](https://www.ebay.com/usr/dr_gameboy_phd) - Full custom builds, instructional videos/live streams
+* [Gameboy Junky](http://gameboyjunky.wixsite.com/website) - Full custom builds, sound mods for LSDJ, and custom artwork
 * [Hand Held Legend](http://handheldlegend.com/) - Screen modification parts (backlights, bivert mod, replacement screen shields) Game Boy Builder
-
+* [J-Bit Retro](https://www.instagram.com/jbitretro/?hl=en) - Full custom builds, chiptune
+* [Kitsch-Bent](http://kitsch-bent.com) - Custom parts, mods, flash carts, etc.
+* [Retro Modding](https://www.retromodding.com/) - Full custom builds, accessories, and other Game Boy products
+* [Rose Colored Gaming](http://rosecoloredgaming.com/) - Full custom builds, Micro faceplates, GBA shells, and custom parts
+* [Stang Boy Customs](http://www.stangboycustoms.com/) - Full custom builds, gallery, and links to other related material
 * [Thursday Customs](http://thursdaycustoms.com/) - Full custom builds, custom parts, mods, etc.
 
+## Europe, including UK and Russia
+* [Bluish Squirrel](https://www.bluishsquirrel.com)
+* [Deadpan Robot](https://www.deadpanrobot.co.uk/)
+* [GameBoyKingdom](https://www.etsy.com/shop/GameBoyKingdom) - Custom UV-printed shells and builds
+
+## Asia and Oceania
+* [BennVenn](https://bennvenn.myshopify.com) - First-party-designed mods, including replacement displays and flash carts
+* [Funny Playing](https://funnyplaying.com) - LCD replacement mods, custom builds
+
+## Might be dead? Hold off on shopping here until we verify.
 * [Nonfinite Electronics](http://nonelectronics.com/index.php?route=product/category&path=81) - Refurbished systems, replacement parts, etc.
-
 * [Mortoff Games](https://mortoffgames.com/) - Replacement parts, etc.
-
-* [Rose Colored Gaming](http://rosecoloredgaming.com/) - Full custom builds, Micro faceplates, GBA shells, and custom parts
-
-* [J-Bit Retro](https://www.facebook.com/jbitretro) - Full custom builds, shells, and screen shields (Facebook)
-
-* [Stang Boy Customs](http://www.stangboycustoms.com/) - Full custom builds, gallery, and links to other related material
-
-* [Dr. Gameboy](https://www.ebay.com/usr/dr_gameboy_phd) - Full custom builds, instructional videos/live streams
-
-* [Cat Skull Electronics](https://www.catskullelectronics.com/) - Chiptune accessories and more
-
-* [Gameboy Junky](http://gameboyjunky.wixsite.com/website) - Full custom builds, sound mods for LSDJ, and custom artwork
-
-* [Retro Modding](https://www.retromodding.com/) - Full custom builds, accessories, and other Game Boy products
+* [Hidarite](https://www.tindie.com/products/hidarite/) - Custom mod kits
